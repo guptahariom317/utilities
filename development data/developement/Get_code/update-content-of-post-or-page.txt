@@ -1,0 +1,17 @@
+ $biography = $_REQUEST['biography'];
+				
+				 $my_post['post_content'] =  $biography;
+
+  					 $new = wp_update_post( $my_post );
+
+
+   <form method="post" action="" id="new_post">
+
+  <tr>
+                <th><label>Biography</label></th>
+                <td><textarea name="biography" class="text_pop" ><?php echo get_the_content(); ?></textarea></td>
+            </tr>
+
+<td>
+ <input type="hidden" name="postid" class="popsub" value="<?php echo $created_post;  ?>" />
+<input type="submit" name="submit" class="popsub" value="Submit" /></td>

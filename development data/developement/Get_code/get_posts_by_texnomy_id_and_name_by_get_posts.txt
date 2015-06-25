@@ -1,0 +1,12 @@
+     <?php   
+
+	global $post;
+	$args = array('posts_per_page'=>-1,'post_type' => 'featured-brands','tax_query' => array(array( 'taxonomy' => 'brands', 'field' => 'id','terms' => array($id))));
+		$myposts = get_posts( $args );
+		foreach ( $myposts as $post ) : 
+		setup_postdata( $post ); 
+		$src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full');
+		$src = $src[0];		
+		?>
+            <li><a href="<?php the_permalink(); ?>"><img src="<?php echo $src; ?>" alt="<?php the_title(); ?>"></a></li>
+         <?php endforeach; wp_reset_postdata(); ?>
