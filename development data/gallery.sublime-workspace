@@ -1,0 +1,783 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"explode"
+			],
+			[
+				"product_",
+				"product_cat"
+			],
+			[
+				"get_s",
+				"get_stylesheet_directory_uri"
+			],
+			[
+				"aja",
+				"ajax_loading_image"
+			],
+			[
+				"time",
+				"timeout	setTimeout function"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"do_",
+				"do_shortcode"
+			],
+			[
+				"the",
+				"the_query"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"get_t",
+				"get_the_ID"
+			],
+			[
+				"te",
+				"term"
+			],
+			[
+				"get",
+				"get_ID"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"se",
+				"select	Tag"
+			],
+			[
+				"t",
+				"typeof"
+			],
+			[
+				"pir",
+				"print_r"
+			],
+			[
+				"cos",
+				"console"
+			],
+			[
+				"el",
+				"el"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"a",
+				"alert"
+			],
+			[
+				"wp",
+				"wp_query"
+			],
+			[
+				"order",
+				"orderby"
+			],
+			[
+				"va",
+				"val2"
+			],
+			[
+				"w",
+				"wp_query"
+			],
+			[
+				"ar",
+				"args"
+			],
+			[
+				"_",
+				"_RESPONSE"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"thu",
+				"exif_thumbnail"
+			],
+			[
+				"nat",
+				"Nationality"
+			],
+			[
+				"book",
+				"reg_book-number"
+			],
+			[
+				"inc",
+				"includes"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"s",
+				"sum"
+			],
+			[
+				"rev",
+				"review_percent"
+			],
+			[
+				"ad",
+				"adventure"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"sub",
+				"sub_ttile"
+			],
+			[
+				"end",
+				"endwhile"
+			],
+			[
+				"su",
+				"sub_ttile"
+			],
+			[
+				"par",
+				"pattern"
+			],
+			[
+				"at",
+				"atts"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"do",
+				"do_shortcode"
+			],
+			[
+				"slide",
+				"slide_image"
+			],
+			[
+				"th",
+				"the_query"
+			],
+			[
+				"wp_",
+				"wp_nav_menu"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"no",
+				"notice"
+			],
+			[
+				"ag",
+				"agree_status"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"rol",
+				"role"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"get_c",
+				"get_currentuserinfo"
+			],
+			[
+				"glo",
+				"global"
+			],
+			[
+				"cur",
+				"current_user"
+			],
+			[
+				"site_",
+				"site_url"
+			],
+			[
+				"home",
+				"Homepage"
+			],
+			[
+				"shi",
+				"ship"
+			],
+			[
+				"pro",
+				"product_qty"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"prd",
+				"product"
+			],
+			[
+				"ite",
+				"item"
+			],
+			[
+				"WC",
+				"WC_Product"
+			],
+			[
+				"pri",
+				"product_id"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"eho",
+				"echo	echo \"…\""
+			],
+			[
+				"print",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/pws-73/server95/public_html/sites/store/wp-content/themes/store/header.php",
+			"settings":
+			{
+				"buffer_size": 4864,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/pws-73/server95/public_html/touramigo/wp-content",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/plugins",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/prdctfltr",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/prdctfltr/woocommerce",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/prdctfltr/woocommerce/loop",
+		"/home/pws-73/server95/public_html/touramigo"
+	],
+	"file_history":
+	[
+		"/tmp/fz3temp-1/.htaccess 2",
+		"/tmp/fz3temp-1/.htaccess",
+		"/tmp/fz3temp-1/wp-config.php",
+		"/home/pws-73/server95/public_html/sites/store/wp-content/themes/store/functions/blog-home.php",
+		"/home/pws-73/server95/public_html/sites/store/wp-content/themes/store/index.php",
+		"/home/pws-73/server95/public_html/sites/store/wp-config.php",
+		"/home/pws-73/server95/public_html/sites/store/wp-content/themes/store/blog.php",
+		"/home/pws-73/.cache/.fr-W4miA5/PayUMoney_PHP_Module-master/PayUMoney_PHP_Module/PayUMoney_form.php",
+		"/home/pws-73/server95/public_html/mag/app/design/frontend/rwd/default/layout/contacts.xml",
+		"/home/pws-73/server95/public_html/wpdemo/wp-content/plugins/contact-form-7-star-rating/jquery.rating/jquery.rating.js",
+		"/home/pws-73/server95/public_html/wpdemo/wp-content/plugins/contact-form-7-star-rating/js/jquery.wpcf7-starrating.js",
+		"/home/pws-73/server95/public_html/wpdemo/wp-content/plugins/contact-form-7-star-rating/starrating.php",
+		"/tmp/fz3temp-1/archive-product.php",
+		"/tmp/fz3temp-1/style.css",
+		"/tmp/fz3temp-1/style 2.css",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child/woocommerce/archive-product.php",
+		"/home/pws-73/server95/public_html/wpdemo/wp-config.php",
+		"/home/pws-73/rohan95/public_html/wpdemo/wp-config.php",
+		"/home/pws-73/rohan95/public_html/Wistia/index.php",
+		"/home/pws-73/server95/public_html/magento_tuts/app1/etc/config.xml",
+		"/home/pws-73/server95/public_html/magento_tuts/app1/etc/local.xml",
+		"/home/pws-73/server95/public_html/magento_tuts/app/etc/local.xml",
+		"/tmp/fz3temp-1/functions.php",
+		"/tmp/fz3temp-1/template-gallery.php",
+		"/tmp/fz3temp-1/commercial-template.php",
+		"/tmp/fz3temp-1/single-property.php",
+		"/tmp/fz3temp-1/page.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/prdctfltr/woocommerce/loop/orderby.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/prdctfltr/lib/js/ion.rangeSlider.min.js",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/prdctfltr/prdctfltr.php",
+		"/tmp/fz3temp-1/content-page.php",
+		"/tmp/fz3temp-1/template-home.php",
+		"/home/pws-73/server95/public_html/xmode-cms/wp-content/themes/flatsome/woocommerce/archive-product.php",
+		"/tmp/fz3temp-1/prdctfltr.php",
+		"/tmp/fz3temp-1/page-post-review.php",
+		"/tmp/fz3temp-1/simple.php",
+		"/tmp/fz3temp-1/wp-load.php",
+		"/tmp/fz3temp-1/functions 2.php",
+		"/home/pws-73/Documents/theme/flatsome-child/functions.php",
+		"/home/pws-73/Documents/theme/17Mar_4:00/flatsome-child/functions.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child/woocommerce/single-product/add-to-cart/simple.php",
+		"/tmp/fz3temp-1/simple 2.php",
+		"/home/pws-73/server95/public_html/Bakup/touramigo/live-theme/mar_23/flatsome-child/page-reviews.php",
+		"/tmp/fz3temp-1/header.php",
+		"/tmp/fz3temp-1/single-product.php",
+		"/tmp/fz3temp-1/simple_custome.php",
+		"/tmp/fz3temp-1/simple 3.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child_new/woocommerce/single-product/add-to-cart/simple.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child_lastworking/woocommerce/single-product/add-to-cart/simple.php",
+		"/tmp/fz3temp-1/functions_custom.php",
+		"/home/pws-73/server95/public_html/Bakup/touramigo/live-theme/mar_23/flatsome-child/woocommerce/content-product.php",
+		"/tmp/fz3temp-1/wp-config 2.php",
+		"/tmp/fz3temp-1/content-product.php",
+		"/home/pws-73/server95/public_html/Bakup/touramigo/live-theme/mar_23/flatsome-child/footer.php.filter",
+		"/home/pws-73/server95/public_html/Bakup/touramigo/live-theme/mar_23/flatsome-child/footer.php",
+		"/home/pws-73/server95/public_html/Bakup/touramigo/live-theme/mar_23/flatsome-child/woocommerce/archive-product.php",
+		"/tmp/fz3temp-1/archive-product 2.php",
+		"/home/pws-73/server95/public_html/Bakup/touramigo/live-theme/mar_23/flatsome-child/style.css",
+		"/home/pws-73/server95/public_html/Bakup/touramigo/live-theme/mar_23/flatsome-child/header.php",
+		"/tmp/fz3temp-1/__form-checkout.php",
+		"/tmp/fz3temp-1/form-checkout.php",
+		"/tmp/fz3temp-1/form-checkout 2.php",
+		"/tmp/fz3temp-1/archive-product.php.filter2",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/woocommerce-ajax-filters/woocommerce-filters.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/woocommerce-ajax-filters/js/widget.min.js",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child/footer.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/woocommerce-ajax-filters/includes/functions.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child/functions.php",
+		"/tmp/fz3temp-1/woocommerce-filters.php",
+		"/home/pws-73/server95/public_html/ecotech/wp-content/themes/echotech/category.php",
+		"/home/pws-73/server95/public_html/ecotech/wp-content/themes/echotech/content.php",
+		"/tmp/fz3temp-1/category.php",
+		"/tmp/fz3temp-1/pop-up.css",
+		"/tmp/fz3temp-1/front.js",
+		"/home/pws-73/server95/public_html/updates/touramigo/codecanyon-8514038-woocommerce-product-filter/full_plugin/prdctfltr/prdctfltr.php",
+		"/home/pws-73/skype/popup/popup.html",
+		"/tmp/fz3temp-1/woof.php",
+		"/home/pws-73/server95/public_html/updates/touramigo/codecanyon-8514038-woocommerce-product-filter/full_plugin/prdctfltr/woocommerce/compatibility/2.2/loop/orderby.php",
+		"/tmp/fz3temp-2/style.css",
+		"/tmp/fz3temp-2/simple 2.php",
+		"/tmp/fz3temp-2/content-product.php",
+		"/tmp/fz3temp-2/price 3.php",
+		"/tmp/fz3temp-2/single-product.php",
+		"/tmp/fz3temp-2/archive-product 2.php",
+		"/tmp/fz3temp-2/price 2.php",
+		"/tmp/fz3temp-2/simple.php",
+		"/tmp/fz3temp-2/rating.css",
+		"/tmp/fz3temp-2/functions.php",
+		"/tmp/fz3temp-2/price.php",
+		"/tmp/fz3temp-2/archive-product.php",
+		"/tmp/fz3temp-2/style 2.css",
+		"/tmp/fz3temp-2/footer.php",
+		"/home/pws-73/Desktop/file_for_touramigo/footer.php",
+		"/tmp/fz3temp-1/price.php",
+		"/home/pws-73/Desktop/file_for_touramigo/price.php",
+		"/tmp/fz3temp-1/single-product 2.php",
+		"/tmp/fz3temp-1/product_review_file 2.php",
+		"/tmp/fz3temp-1/rating.css",
+		"/tmp/fz3temp-1/content-product 2.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child_lastworking/functions.php",
+		"/tmp/fz3temp-1/additional-information.php",
+		"/tmp/fz3temp-1/additional-information 2.php",
+		"/home/pws-73/Documents/theme/flatsome-child_DTJ/woocommerce/single-product/tabs/additional-information.php",
+		"/tmp/fz3temp-1/rating 2.css",
+		"/home/pws-73/Documents/theme/flatsome-child_DTJ/css/rating.css",
+		"/tmp/fz3temp-1/jquery.raty.css",
+		"/tmp/fz3temp-1/product_review_file.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/compare_theme/flatsome-child_DTJ/functions.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child_lastworking/style.css",
+		"/home/pws-73/Documents/theme/flatsome-child_DTJ/js/jdtheme.js",
+		"/home/pws-73/Documents/theme/17Mar_4:00/flatsome-child/woocommerce/single-product/add-to-cart/simple.php",
+		"/home/pws-73/Documents/theme/flatsome-child_DTJ/woocommerce/single-product/add-to-cart/simple.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child/js/function.js",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child/woocommerce/content-product.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child_lastworking/woocommerce/content-product.php",
+		"/tmp/fz3temp-1/function.js",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/compare_theme/flatsome-child_live/style.css",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child/header.php",
+		"/tmp/fz3temp-1/footer 2.php",
+		"/tmp/fz3temp-1/footer.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child_lastworking/woocommerce/archive-product.php",
+		"/tmp/fz3temp-1/page-post-review 2.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child/page-post-review.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-config.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child/style.css",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/compare_theme/flatsome-child_live/functions.php",
+		"/home/pws-73/server94/development data/ajax_demo.php",
+		"/home/pws-73/server95/public_html/touramigo/wp-content/themes/flatsome-child/woocommerce/content-product_cat.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/prdctfltr",
+			"/home/pws-73/server95/public_html/touramigo/wp-content",
+			"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/woocommerce-ajax-filters",
+			"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/woocommerce-ajax-filters/js",
+			"/home/pws-73/server95/public_html/touramigo/wp-content/themes",
+			"/home/pws-73/server95/public_html/touramigo/wp-content/plugins/woocommerce-ajax-filters",
+			"/home/pws-73/rohan95/public_html/faustformel-live",
+			"/home/pws-73/rohan95/public_html/wp-content/",
+			"/home/pws-73/rohan95/wp-content/",
+			"/home/pws-73/rohan95/",
+			"/home/pws-73/server95/public_html/woo-filter/wp-content/plugins/woocommerce-ajax-filters",
+			"/home/pws-73/server95/public_html/sites/tessa/",
+			"/home/pws-73/server95/public_html/sites/tessa/wp-content/plugins/slideshow-gallery",
+			"",
+			"/home/pws-73/server95/public_html/sites/tessa/wp-content/plugins/slideshow-gallery/views",
+			"/home/pws-73/server95/public_html/ecotech",
+			"/home/pws-73/server95/public_html/ecotech/wp-content/plugins",
+			"/home/pws-73/server95/public_html/ecotech/wp-content/plugins/theme-my-login"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".contact-form input[type=\"submit\"]",
+			".contact-info h2, .contact-form h2",
+			".stats-info span",
+			"212121",
+			".stats-info",
+			".nav ul li a:hover",
+			".nav ul li",
+			"properties_headding_text",
+			"gallery",
+			"gallery_view",
+			"Need Help",
+			"columns",
+			"column",
+			"unset",
+			"category",
+			"na",
+			"narr",
+			"narrow",
+			"down",
+			"donw",
+			"wc_settings_prdctfltr_price_range",
+			"prdctfltr_r_fields",
+			"wp_ajax",
+			"data-columns",
+			"shop",
+			"thank",
+			"thanks",
+			"'page'",
+			"'post'",
+			"'product'",
+			"prdctfltr_catalog_price",
+			"prdctfltr_add_settings_tab",
+			"wc_settings_prdctfltr_active_filters",
+			"WC_Settings_Prdctfltr",
+			"price",
+			"irs-to",
+			"class=\"irs-to\"",
+			"tour name",
+			"tourname",
+			"ajax_loading_image",
+			"name=\"Operator\" id",
+			"operator",
+			"tourname",
+			"tour name",
+			"ajax_loading_image",
+			"ajax_",
+			"ajax_loading_image",
+			"redirect",
+			"tour name",
+			"formsecond .f_left",
+			"What were the three most important factors for booking this tour?",
+			"Local Guides",
+			".formfirst label",
+			"#formwritereview label",
+			"formwritereview",
+			"What were the three most important factors for booking this tour?",
+			"formthired",
+			".formthired label",
+			"formthired label",
+			".formfirst label",
+			".formfirst label, .formsecond label, .formthired label",
+			"ormthired labe",
+			"pecial Diets",
+			"hide_free_price_notice",
+			"woocommerce_clear_cart_url",
+			"jd_scripts",
+			"shortcode",
+			"wpdb",
+			"None",
+			"prdctfltr_multi",
+			"chosen",
+			"prdctfltr_multi",
+			"do_shortcode",
+			"modal-dialog",
+			"row",
+			"font",
+			".shop_attributes th",
+			"otheroperator",
+			"rate_info",
+			"tooltip",
+			"ished you knew before you went, your b",
+			"stars",
+			"ges/stars.",
+			"ges/stars.p",
+			".rating",
+			"->",
+			"OUNTRY FILTER",
+			"otheroperator",
+			".user-post-date",
+			"label.error",
+			".rating",
+			"/images/stars.png",
+			"wpcf_what_hot_tips_do_you_recommend_to_future_fellow_travellers_taking_this_tour_comme",
+			"wpcf_what_hot_tips_do_you_recommend_to_future_fellow_travellers_taking_this_tour_comment",
+			"accommodation_comment",
+			"wpcf-what-hot-tips-do-you-recommend-to-future-fellow-travellers-taking-this-tour",
+			"custom_product_tab_content",
+			"OPERATOR INFORMAT",
+			"starrating",
+			"rating",
+			".rating",
+			".compare_table_zoom",
+			"ajax_title_categoty_my",
+			"custom_product_tab_content",
+			"product_review_file.php",
+			"pro_login_redirect",
+			"ot what you paid for?",
+			".chosen-container-single .chosen-single",
+			"filter",
+			"Tour Name",
+			"our Name",
+			"colorbox",
+			"iosSlider",
+			"inline",
+			"operator",
+			"formsecond",
+			"dothejob",
+			"ajax_title_categoty_my",
+			"ul.header-nav a.nav-top-link",
+			"watch",
+			"accomodation_percent",
+			"accommodation_staff_and_service",
+			"accommodation",
+			"rating",
+			"style",
+			"tour_name",
+			"wpcf_pr_belongs",
+			"Operator"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/pws-73/server95/public_html/sites/store/wp-content/themes/store/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4482,
+								4482
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 858.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "gallery.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

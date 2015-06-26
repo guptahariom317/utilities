@@ -1,0 +1,21 @@
+<a href="#website">Narendra</a>
+<div id="website">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis magna sem, imperdiet ac volutpat et, porttitor eget urna. Etiam eget lectus arcu, et ullamcorper dolor.
+Cras id purus risus, ut faucibus mauris. Aliquam erat volutpat. Aenean quis adipiscing quam. Sed at fringilla quam. Morbi pellentesque mollis congue. Vestibulum quis mattis mi. Aliquam erat volutpat. Maecenas vitae orci sem. Ut eu metus in sem imperdiet euismod vitae eu neque. Pellentesque malesuada consectetur nibh, in pretium nibh aliquam nec. Nunc ac enim ultrices metus accumsan faucibus a sed lectus.</div>
+
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('a[href^="#"]').click(function(event) {
+			var id = $(this).attr("href");
+			var offset = 60;
+			var target = $(id).offset().top - offset;
+
+			$('html, body').animate({scrollTop:target}, 500);
+			event.preventDefault();
+		});
+	});
+</script>

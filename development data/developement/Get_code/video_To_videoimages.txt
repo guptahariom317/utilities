@@ -1,0 +1,20 @@
+  <?php  $vdo=get_post_meta($post->ID, 'video_url', false);?>
+				
+			<?php
+			
+			
+		foreach($vdo as $vedio){
+			
+	$vedio_part = str_replace("http://youtu.be/", "ttp://www.youtube.com/embed/", $vedio);
+	$youtube_id = str_replace("http://youtu.be/", "", $vedio);
+	
+	$youtube_thumb_url = 'http://img.youtube.com/vi/' . $youtube_id . '/0.jpg';
+	
+	
+		?>
+          
+                <a href="<?php echo $vedio_part; ?>"><img src="<?php echo $youtube_thumb_url; ?>" height="100" width="123" alt="Youtube Video"></a>
+                
+                     
+                <?php }
+	?>

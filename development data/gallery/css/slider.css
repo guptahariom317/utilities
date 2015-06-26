@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+.view_all_post {
+   background: url("http://www.diyinspired.com/wp-content/themes/Scylla_Pro/images/pattern4.png") repeat scroll 0 0 #f2ebe3 !important;
+    float: left;
+    padding: 0 10px;
+    width: 64%;
+ margin: 30px 0 0;
+}
+.back_div
+{
+padding:0 0 15px 10px !important;
+}
+.slider_left .topInfo.clearfix {
+    padding: 0 20px;
+    text-align: left;
+}
+.catnamme a
+{
+font-size:20px;
+}
+.expander.setTruncHeight {
+    color: #000;
+}
+.right_sidebareee #sidebar .widgets
+{
+width:auto !important;
+}
+.slider ul li img:hover
+{
+background:#fff;
+opacity: 0.7;
+}
+.slider
+		{
+			margin:0;
+			padding:0;
+		}
+		.slider ul
+		{
+			margin:0;
+			padding:0;
+			list-style-type:none;
+		}
+		.slider ul li
+		{ float: left;
+    margin: 0 53px 10px 0;
+    padding: 0;
+    width: 139px;
+min-height: 227px;
+	text-align:center;
+		}
+			.slider ul li h5
+			{
+				margin:0;
+				padding:0;
+font-size:14px;
+			}
+			.slider ul li h5 a
+			{
+				text-decoration:none;
+				color:#000;
+			}
+			.slider ul li h5 a:hover
+			{
+				color:#2d7a15;
+			}
+.slider_tax
+{
+	margin:0;
+	padding:0;
+}
+.slider_tax_inn {
+    margin: auto;
+    padding: 0 0 0px;
+    width: 100%;
+}
+.slider_tax_inn h3
+{ margin:0;
+padding:0;}
+.addinto_sharebox1
+{ margin: 0;
+    padding: 0;
+    width:64%;
+text-align:left;
+}
+.slide_inn
+{ margin: auto;
+    padding: 26px 0 0;
+    position: relative;
+    width: 960px;}
+.slider_left
+{
+	margin:20px 0 0;
+	padding:0;
+	float:left;
+	width:620px;
+	text-align:center;
+	position:relative;
+background: url("http://www.diyinspired.com/wp-content/themes/Scylla_Pro/images/pattern4.png") repeat scroll 0 0 #f2ebe3 !important;
+}
+.slider_right
+{ margin:0;
+padding:0;
+float:right;
+width:300px;
+position:relative;
+}
+.clear
+{
+	clear:both;
+}
+.slider_left .alignleft {
+    float: left;
+    position: absolute;
+    top: 40%;
+	right:0;
+}
+.slider_left .alignleft a
+{
+	
+	width:42px;
+	height:51px;
+	font-size:0;
+	display:block;
+}
+.slider_left .alignright {
+    float: left;
+    position: absolute;
+    top: 40%;
+	left:-8px;
+}
+.slider_left .alignright a
+{
+	
+	width:42px;
+	height:51px;
+	font-size:0;
+	display:block;
+}
+.slider_right .alignleft
+{
+background: url("../images/aro.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+    display: block;
+    font-size: 20px;
+    left: 15px;
+    margin: 0;
+    padding: 0 0 36px 21px;
+    position: absolute;
+    width: 73px;
+}
+.aliginmid
+{  left: 96px;
+    position: absolute;
+    top: 49px;}
+
+
+.slider_right .alignright
+{
+
+ 
+    background: url("../images/aro2.png") no-repeat scroll right 3px rgba(0, 0, 0, 0);
+    display: block;
+    margin: 0;
+    padding: 0 68px 25px 0;
+    position: absolute;
+    right:15px;
+    width: 56px;
+	font-size:20px;
+
+}
+.slider_right > h2 {
+    padding: 35px 0 0;
+    color: #f2ebe3;
+}
+.slider_left img
+{
+border:2px solid #fff;
+}
+.clear
+{
+	clear:both;
+}
+
+.aliginmid a {
+    padding: 0 2px 0 13px;
+}
+.slider_right > p {
+    padding: 0 0 30px;
+}
+.social_buttons {
+    padding: 15px 0 0;
+}
+#myad {
+    text-align: center;
+}
+.alignright img
+{
+border:none !important;
+}
+.alignleft img
+{
+border:none !important;
+}
+.topInfo h1
+{
+color:#006a77;
+}
+.view_all_post ul {
+    list-style-type: none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.view_all_post ul li{
+   float: left;
+    margin: 0 28px 10px 0;
+    padding: 0;
+    text-align: center;
+    width: 150px;
+min-height:205px;
+}
+
+
+.view_all_post ul li img:hover {
+    background: none repeat scroll 0 0 #fff;
+    opacity: 0.9;
+}
+.view_all_post ul li img {
+    height: 160px !important;
+    width: 160px !important;
+}
+
+.view_all_post ul li h5 {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+	color: #84b1b4 !important;
+}
+.view_all_post ul li h5 a {
+    font-size: 14px;
+  
+	color: #84b1b4 !important;
+list-style:none;
+}
+
+.view_all_post ul li h5 a:hover {
+    color: #2d7a15;
+list-style:none !important;
+}
+.slider_left img:hover{
+ background: none repeat scroll 0 0 #fff;
+    opacity: 0.9;
+}
+.slider_right_inn
+{
+	background: url("http://www.diyinspired.com/wp-content/themes/Scylla_Pro/images/pattern4.png") repeat scroll 0 0 #84b1b4 !important;
+margin: 20px 0 20px;
+    padding: 10px;
+}
+.slider_right_inner
+{
+background: url("http://www.diyinspired.com/wp-content/themes/Scylla_Pro/images/trans_black.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 0;
+    width: 100%;
+}
+.slider_right_inner h2
+{
+margin: 0;
+    padding: 20px 10px 10px;
+    color: #006a77;
+}
+.slider_right_inner p
+{
+padding:0 10px 10px;
+}
