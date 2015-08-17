@@ -1,0 +1,13 @@
+<?php
+$cat=1;
+$yourcat = get_category($cat);
+if ($yourcat) {
+ $image= get_img($yourcat->term_id,'image');
+?>
+<?php echo $yourcat->name; ?>
+<img src="<?php echo $image; ?>" >
+<?php echo $yourcat->description; ?>
+<?php
+
+}
+?>

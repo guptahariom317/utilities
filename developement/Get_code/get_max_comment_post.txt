@@ -1,0 +1,67 @@
+ <?php $args = array(
+
+    'posts_per_page'  => 3,
+
+    'offset'          => 0,
+
+   
+
+    'orderby' => 'comment_count',
+
+    'order'           => 'DESC',
+
+    'post_type'       => 'post',
+
+    'post_status'     => 'publish',
+
+    'suppress_filters' => true );
+
+	
+
+// The Query
+
+$the_query = new WP_Query( $args );
+
+
+
+// The Loop
+
+while ( $the_query->have_posts() ) :
+
+	$the_query->the_post();
+
+ $src = wp_get_attachment_image_src( get_post_thumbnail_id($page->ID), 'full');	?> 
+
+<div class="po_pot">
+    <div id="textmost"><a href="<?php echo get_page_link( $page->ID ); ?>"><?php the_title(); ?></a></div>
+
+    <div class="textmost"><a href="<?php echo get_page_link( $page->ID ); ?>"><img src="<?php bloginfo( 'template_directory' ); ?>/timthumb.php?src=<?php echo $src[0];?>&amp;w=90&amp;h=60&zc=2" alt="" /></a>  </div>
+
+    <div id="left2">
+
+<p><?php content('12'); ?></p></div><div class="clearall"> </div> </div>
+
+
+
+
+
+	<?php
+
+	
+
+endwhile;
+
+
+
+/* Restore original Post Data 
+
+ * NB: Because we are using new WP_Query we aren't stomping on the 
+
+ * original $wp_query and it does not need to be reset.
+
+*/
+
+wp_reset_postdata();
+
+
+?>

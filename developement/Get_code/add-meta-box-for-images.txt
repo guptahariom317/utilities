@@ -1,0 +1,191 @@
+add_action( 'add_meta_boxes', 'cd_meta_box_add' );  
+function cd_meta_box_add()  
+{  
+    add_meta_box( 'my-meta-box-id', 'Project Gallery Meta Box', 'cd_meta_box_cb', 'work', 'normal', 'high' );  
+	 
+}  
+
+function cd_meta_box_cb( $post )  
+{  
+$values = get_post_custom( $post->ID );  
+/*$text1 = isset( $values['first_member_name'] ) ? esc_attr( $values['first_member_name'][0] ) : '';  */
+$text1 = isset( $values['upload_image'] ) ? esc_attr( $values['upload_image'][0] ) : ''; 
+$text2 = isset( $values['upload_image2'] ) ? esc_attr( $values['upload_image2'][0] ) : ''; 
+$text3 = isset( $values['upload_image3'] ) ? esc_attr( $values['upload_image3'][0] ) : ''; 
+$text4 = isset( $values['upload_image4'] ) ? esc_attr( $values['upload_image4'][0] ) : ''; 
+$text5 = isset( $values['upload_image5'] ) ? esc_attr( $values['upload_image5'][0] ) : ''; 
+
+    wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );?>  
+  <script type="text/javascript">
+	var j = jQuery.noConflict();
+ jQuery(document).ready(function() {
+
+jQuery('#upload_image_button').click(function() {
+											  window.send_to_editor = function(html) {
+ imgurl = jQuery('img',html).attr('src');
+ jQuery('#upload_image').val(imgurl);
+ tb_remove();
+
+
+}
+
+
+ tb_show('', 'media-upload.php?post_id=1&type=image&TB_iframe=true');
+ return false;
+});
+
+
+}); 
+
+jQuery(document).ready(function() {
+
+jQuery('#upload_image_button2').click(function() {
+											   window.send_to_editor = function(html) {
+ imgurl = jQuery('img',html).attr('src');
+ jQuery('#upload_image2').val(imgurl);
+ tb_remove();
+
+ 
+}
+
+ tb_show('', 'media-upload.php?post_id=1&type=image&TB_iframe=true');
+ return false;
+});
+
+
+
+}); 
+
+jQuery(document).ready(function() {
+
+jQuery('#upload_image_button3').click(function() {
+											   window.send_to_editor = function(html) {
+ imgurl = jQuery('img',html).attr('src');
+ jQuery('#upload_image3').val(imgurl);
+ tb_remove();
+
+ 
+}
+
+ tb_show('', 'media-upload.php?post_id=1&type=image&TB_iframe=true');
+ return false;
+});
+
+
+
+});
+
+
+jQuery(document).ready(function() {
+
+jQuery('#upload_image_button4').click(function() {
+											   window.send_to_editor = function(html) {
+ imgurl = jQuery('img',html).attr('src');
+ jQuery('#upload_image4').val(imgurl);
+ tb_remove();
+
+ 
+}
+
+ tb_show('', 'media-upload.php?post_id=1&type=image&TB_iframe=true');
+ return false;
+});
+
+
+
+});
+
+
+jQuery(document).ready(function() {
+
+jQuery('#upload_image_button5').click(function() {
+											   window.send_to_editor = function(html) {
+ imgurl = jQuery('img',html).attr('src');
+ jQuery('#upload_image5').val(imgurl);
+ tb_remove();
+
+ 
+}
+
+ tb_show('', 'media-upload.php?post_id=1&type=image&TB_iframe=true');
+ return false;
+});
+
+
+
+});
+</script>
+
+<?php   //$selected = isset( $values['my_meta_box_select'] ) ? esc_attr( $values['my_meta_box_select']) : '';
+
+$selected1 = isset( $values['show_header'] ) ? esc_attr( $values['show_header'][0]) : ''; 
+ $show_header = get_post_meta($post->ID, 'show_header', true);
+ 
+  
+	?>
+       <label>Upload Image Ratio For 477 x 207</label>
+     <input id="upload_image" type="text" size="36" name="upload_image" value="<?php echo get_post_meta($post->ID, 'upload_image', true);?>" />
+<input id="upload_image_button" type="button" value="Upload Image" />
+     <small>Upload Image</small><br />
+      <label>Upload Image Ratio For 227 x 433</label>
+     <input id="upload_image2" type="text" size="36" name="upload_image2" value="<?php echo get_post_meta($post->ID, 'upload_image2', true);?>" />
+<input id="upload_image_button2" type="button" value="Upload Image" />
+     <small>Upload Image</small><br />
+      <label>Upload Image Ratio For 227 x 207</label>
+     <input id="upload_image3" type="text" size="36" name="upload_image3" value="<?php echo get_post_meta($post->ID, 'upload_image3', true);?>" />
+<input id="upload_image_button3" type="button" value="Upload Image" />
+     <small>Upload Image</small><br />
+      <label>Upload Image Ratio For 277 x 207</label>
+     <input id="upload_image4" type="text" size="36" name="upload_image4" value="<?php echo get_post_meta($post->ID, 'upload_image4', true);?>" />
+<input id="upload_image_button4" type="button" value="Upload Image" />
+     <small>Upload Image</small><br />
+     <label>Upload Image Ratio For 227 x 433</label>
+     <input id="upload_image5" type="text" size="36" name="upload_image5" value="<?php echo get_post_meta($post->ID, 'upload_image5', true);?>" />
+<input id="upload_image_button5" type="button" value="Upload Image" />
+     <small>Upload Image</small><br />
+     
+
+
+    <?php  
+}  
+ 
+
+add_action( 'save_post', 'cd_meta_box_save' );  
+function cd_meta_box_save( $post_id )  
+{  
+    // Bail if we're doing an auto save  
+    if( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return; 
+    // if our nonce isn't there, or we can't verify it, bail 
+    if( !isset( $_POST['meta_box_nonce'] ) || !wp_verify_nonce( $_POST['meta_box_nonce'], 'my_meta_box_nonce' ) ) return; 
+    // if our current user can't edit this post, bail  
+    if( !current_user_can( 'edit_post' ) ) return;  
+    // now we can actually save the data  
+    $allowed = array(  
+        'a' => array( // on allow a tags  
+            'href' => array() // and those anchors can only have href attribute  
+        )  
+    );  
+    // Make sure your data is set before trying to save it  
+    //if( isset( $_POST['first_member_name'] ) )  
+       // update_post_meta( $post_id, 'first_member_name', wp_kses( $_POST['first_member_name'], $allowed ) ); 
+		//if( isset( $_POST['my_meta_box_text'] ) )  
+        //update_post_meta( $post_id, 'my_meta_box_text', wp_kses( $_POST['my_meta_box_text'], $allowed ) ); 
+		
+		if( isset( $_POST['upload_image'] ) )  
+        update_post_meta( $post_id, 'upload_image', wp_kses( $_POST['upload_image'], $allowed ) ); 
+		if( isset( $_POST['upload_image2'] ) )  
+        update_post_meta( $post_id, 'upload_image2', wp_kses( $_POST['upload_image2'], $allowed ) ); 
+		if( isset( $_POST['upload_image3'] ) )  
+        update_post_meta( $post_id, 'upload_image3', wp_kses( $_POST['upload_image3'], $allowed ) ); 
+		if( isset( $_POST['upload_image4'] ) )  
+        update_post_meta( $post_id, 'upload_image4', wp_kses( $_POST['upload_image4'], $allowed ) ); 
+		if( isset( $_POST['upload_image5'] ) )  
+        update_post_meta( $post_id, 'upload_image5', wp_kses( $_POST['upload_image5'], $allowed ) ); 
+
+	
+    // This is purely my personal preference for saving check-boxes  
+    //$chk = isset( $_POST['my_meta_box_check'] ) && $_POST['my_meta_box_check'] ? 'on' : 'off';  
+    //update_post_meta( $post_id, 'my_meta_box_check', $chk ); 
+	
+	
+}   

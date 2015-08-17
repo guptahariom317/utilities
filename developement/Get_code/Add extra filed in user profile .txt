@@ -1,0 +1,72 @@
+function fb_add_custom_user_profile_fields( $user ) {
+    ?>
+        <h3><?php _e('pay Information', 'your_textdomain'); ?></h3>
+        
+        <table class="form-table">
+            <tr>
+                <th>
+                    <label for="address"><?php _e('Paid', 'your_textdomain'); ?>
+                </label></th>
+                <td>
+                <select  name="ispay" id="ispay"  >
+                <option value="0" >--select--</option>
+                <option  <?php if(get_the_author_meta( 'ispay', $user->ID )=='YES') echo 'selected="selected"' ;?> value="YES">YES</option>
+                <option <?php if(get_the_author_meta( 'ispay', $user->ID )=='NO') echo 'selected="selected"' ;?> value="NO">NO</option>
+                </select>
+                
+         
+               <br />
+                    <span class="description"><?php _e('Please Select one option.', 'your_textdomain'); ?></span>
+                </td>
+            </tr>
+        </table>
+    <?php }
+    function fb_save_custom_user_profile_fields( $user_id ) {
+        
+        if ( !current_user_can( 'edit_user', $user_id ) )
+            return FALSE;
+        
+        update_usermeta( $user_id, 'ispay', $_POST['ispay'] );
+    }
+    add_action( 'show_user_profile', 'fb_add_custom_user_profile_fields' );
+    add_action( 'edit_user_profile', 'fb_add_custom_user_profile_fields' );
+    add_action( 'personal_options_update', 'fb_save_custom_user_profile_fields' );
+    add_action( 'edit_user_profile_update', 'fb_save_custom_user_profile_fields' );
+ 
+ 
+ //add columns to User panel list page
+function add_user_columns( $defaults ) {
+     $defaults['ispay'] = __('Paid', 'user-column');
+   
+     return $defaults;
+}
+function add_custom_user_columns($value, $column_name, $id) {
+      if( $column_name == 'ispay' ) {
+    
+    if(get_the_author_meta( 'ispay', $id )=='YES')
+    {
+     return '<span style="color:#090" >YES</span>';
+    }
+     if(get_the_author_meta( 'ispay', $id )=='NO')
+     {return '<span style="color:#F00" >NO</span>';
+     }
+  
+      }
+   
+}
+add_action('manage_users_custom_column', 'add_custom_user_columns', 15, 3);
+add_filter('manage_users_columns', 'add_user_columns', 15, 1);
+
+
+add_action('user_register', 'myplugin_registration_save');
+
+function myplugin_registration_save($user_id) {
+ $user = get_userdata($user_id);
+ if($user->caps['s2member_level1']|| $user->caps['s2member_level1']) {
+ update_user_meta($user_id, 'ispay', 'NO');
+ }
+ else
+ {
+ update_user_meta($user_id, 'ispay', 'YES');
+ }
+}

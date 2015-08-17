@@ -1,0 +1,27 @@
+<?php
+
+                    global $post;
+
+      $page =get_option( 'wpc_id1');
+
+     $args = array( 'page_id' =>$page);            
+
+     //print_r($args);
+
+     query_posts( $args );     
+
+     if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+     
+                                  <a href="<?php the_permalink() ?>"><h3><?php the_title();?></h3></a>
+               
+                
+                <p class="ptext">
+     <?php echo String::content_limit(90,'');?><span><a href="<?php the_permalink(); ?>">more</a></span>
+                </p>
+                <?php endwhile; endif; 
+     wp_reset_query(); ?>
+                  
+                    
+                
+        
